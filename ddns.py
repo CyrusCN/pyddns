@@ -6,8 +6,8 @@ keyword = '240'
 b = [row for row in a if keyword in row]
 #打印new list
 print (b)
-#in b list select str(默认选择第一列)
-valuev6 = b[1]
+#in b list select str(默认选择列中第一元素str)
+valuev6 = b[0]
 print (valuev6)
 #筛选location与ip
 stloc = valuev6.find('inet6') + 6
