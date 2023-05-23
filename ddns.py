@@ -16,4 +16,4 @@ value = valuev6[stloc:endloc]
 print (value)
 #curl a str value from ipaddr6
 #以下post包请根据对应dns解析商自行构建
-os.system("curl -X POST https://dnsapi.cn/Record.Ddns -d 'login_token=47,2d70e064748&format=js>
+os.system("curl -X POST https://dnsapi.cn/Record.Ddns -d 'login_token=,,&value=%s'" % value)>
